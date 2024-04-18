@@ -12,8 +12,5 @@ export class AppComponent {
 
   constructor(private service: TransferenciaService) {}
 
-  // tslint:disable-next-line:typedef
-  transferir($event) {
-    this.service.adicionar($event);
-  }
+
 }
